@@ -18,7 +18,8 @@ Perform the edge detector operation
 ### Step5:
 Show to detected image
 ## Program:
-
+           NAME   : M.RAJESHKANNAN
+           REG NO : 212221230081
 ```
 
 # Import the packages
