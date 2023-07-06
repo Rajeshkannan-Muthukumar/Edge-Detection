@@ -51,10 +51,10 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 
-# LAPLACIAN EDGE DETECTOR AND TO SHOW THE DETECTED IMAGE
+# LAPLACIAN  OF GAUSSIAN EDGE DETECTOR AND TO SHOW THE DETECTED IMAGE
 
-rgb_image = cv2.cvtColor(i,cv2.COLOR_BGR2RGB)
-laplacian_operator = cv2.Laplacian(rgb_image,cv2.CV_64F)
+
+laplacian_operator = cv2.Laplacian(img,cv2.CV_64F)
 cv2.imshow('laplacian_operator',laplacian_operator)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
